@@ -160,11 +160,6 @@ body {
   -o-border-radius: 8px;
 }
 
-.card-work-list li:nth-child(3),
-.card-work-list li:nth-child(5) {
-  color: #7a869a;
-}
-
 .card-work-btn {
   display: flex;
   font-family: 'Poppins';

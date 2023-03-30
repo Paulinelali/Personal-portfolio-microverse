@@ -132,6 +132,8 @@ body {
   align-items: baseline;
 }
 
+
+
 .dot-list {
   width: 8px;
   height: 8px;
@@ -158,11 +160,6 @@ body {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-}
-
-.card-work-list li:nth-child(3),
-.card-work-list li:nth-child(5) {
-  color: #7a869a;
 }
 
 .card-work-btn {

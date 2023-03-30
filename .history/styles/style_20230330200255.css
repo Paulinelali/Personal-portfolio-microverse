@@ -4,19 +4,18 @@
   margin: 0;
 }
 
-body {
-  background-color: #e5e5e5;
+body{
+  background-color: #E5E5E5
 }
-
-.header-section-wrapper {
+.header-section-wrapper{
   background-color: white;
   padding-bottom: 50px;
   border: 1px solid white;
-  border-radius: 0 0 0 50px;
-  -webkit-border-radius: 0 0 0 50px;
-  -moz-border-radius: 0 0 0 50px;
-  -ms-border-radius: 0 0 0 50px;
-  -o-border-radius: 0 0 0 50px;
+  border-radius: 0px 0px 0px 50px;
+  -webkit-border-radius: 0px 0px 0px 50px;
+  -moz-border-radius: 0px 0px 0px 50px;
+  -ms-border-radius: 0px 0px 0px 50px;
+  -o-border-radius: 0px 0px 0px 50px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -87,13 +86,13 @@ body {
 
 /* finishing up mobile portfolio */
 
-.main-content {
+.main-content{
   display: grid;
   gap: 100px;
-  margin: 114px 0;
+  margin: 114px 0PX
 }
 
-.card-work {
+.card-work{
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -101,8 +100,8 @@ body {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  background-color: #fff;
-  border: 1px solid #dfe1e6;
+  background-color: #FFFFFF;
+  border: 1px solid #DFE1E6;
   border-radius: 16px;
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
@@ -110,32 +109,36 @@ body {
   -o-border-radius: 16px;
   margin: auto;
   font-family: 'Poppins';
-  font-style: normal;
+font-style: normal;
 }
 
-.card-work-content {
+.card-work-content{
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.card-work-content h1 {
+.card-work-content h1{
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
 }
 
-.card-work-list {
+.card-work-list{
   display: flex;
   gap: 16px;
   list-style-type: none;
-  align-items: baseline;
+  align-items: baseline
+}
+.card-work-list li:nth-child(3), .card-work-list li:nth-child(5){
+  
+  color: #7A869A;
 }
 
-.dot-list {
+.dot-list{
   width: 8px;
   height: 8px;
-  background-color: #c1c7d0;
+  background-color: #C1C7D0;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -143,15 +146,15 @@ body {
   -o-border-radius: 50%;
 }
 
-.card-work-skills {
+.card-work-skills{
   display: flex;
   align-items: center;
   list-style-type: none;
   gap: 16px;
 }
 
-.card-work-skills li {
-  background-color: #ebebff;
+.card-work-skills li{
+  background-color: #EBEBFF;
   padding: 4px 12px;
   border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -160,12 +163,7 @@ body {
   -o-border-radius: 8px;
 }
 
-.card-work-list li:nth-child(3),
-.card-work-list li:nth-child(5) {
-  color: #7a869a;
-}
-
-.card-work-btn {
+.card-work-btn{
   display: flex;
   font-family: 'Poppins';
   font-style: normal;
@@ -177,8 +175,8 @@ body {
   letter-spacing: 0.03em;
   width: 50%;
   padding: 12px;
-  color: #396df2;
-  border: 1px solid #396df2;
+  color: #396DF2;
+  border: 1px solid #396DF2;
   background: rgb(225, 225, 225, 0);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -187,34 +185,33 @@ body {
   -o-border-radius: 10px;
 }
 
-.about-myself,
-.last-section {
+.about-myself, .last-section{
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 40px;
+  padding: 0px 40px;
   gap: 16px;
   padding-top: 114px;
   font-family: 'Poppins';
-  font-style: normal;
+font-style: normal;
 }
 
-.about-myself > h1 {
+.about-myself > h1{
   font-weight: 700;
   font-size: 40px;
 }
 
-.lets-connect {
+.lets-connect{
   font-weight: 500;
   font-family: 'Poppins';
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #7F8CFF;
 }
 
-.language {
+.language{
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -222,15 +219,13 @@ body {
   font-style: normal;
 }
 
-.skills {
+.skills{
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.js,
-.css,
-.html {
+.js, .css, .html{
   display: flex;
   gap: 16px;
   align-items: center;
@@ -244,54 +239,51 @@ body {
   -o-border-radius: 8px;
 }
 
-.skills img {
-  margin: 9px 0 9px 12px;
+.skills img{
+  margin: 9px 0px 9px 12px;
 }
 
-.lang-text span {
+.lang-text span{
   font-size: 20px;
   font-weight: 500;
 }
 
-.lang-text {
+.lang-text{
   display: flex;
   justify-content: space-between;
   padding-right: 26px;
 }
-
-.lang-text i {
+.lang-text i{
   color: rgba(172, 183, 195, 1);
   font-weight: 100;
+  
 }
-
-.lang-text.bordered {
-  border-top: 1px solid #dfe1e6;
-  border-bottom: 1px solid #dfe1e6;
-  padding: 23px 0;
+.lang-text.bordered{
+  border-top: 1px solid #DFE1E6;
+  border-bottom: 1px solid #DFE1E6;
+  padding: 23px 0px;
   margin-bottom: 176px;
 }
-
-.lang-text.bordered i {
+.lang-text.bordered i{
   padding-right: 26px;
 }
 
-.last-section {
-  margin-top: -90px;
+.last-section{
   background: rgba(96, 112, 255, 1);
   background-image: url("../assets/contact\ form\ shapes-mobile.png");
   background-position: 100% 0%;
   background-repeat: no-repeat;
   background-size: contain;
   gap: 20px;
-  border-radius: 80px 0 0 0;
-  -webkit-border-radius: 80px 0 0 0;
-  -moz-border-radius: 80px 0 0 0;
-  -ms-border-radius: 80px 0 0 0;
-  -o-border-radius: 80px 0 0 0;
+  border: 3px solid red;
+  border-radius: 25px 0px 0px 0px;
+  -webkit-border-radius: 25px 0px 0px 0px;
+  -moz-border-radius: 25px 0px 0px 0px;
+  -ms-border-radius: 25px 0px 0px 0px;
+  -o-border-radius: 25px 0px 0px 0px;
 }
 
-.last-section input,
-.last-section textarea {
+.last-section input, .last-section textarea{
   width: 100%;
   padding: 15px 16px;
   color: black;
@@ -303,26 +295,25 @@ body {
   -o-border-radius: 8px;
 }
 
-.last-section h1,
-p {
+.last-section h1, p{
   font-family: 'Poppins';
   font-style: normal;
   color: white;
   text-align: center;
 }
-
-.last-section h1 {
+.last-section h1{
   font-weight: 700;
   font-size: 40px;
+
 }
 
-form {
+form{
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.submit-btn {
+.submit-btn{
   text-align: center;
   width: 50%;
   font-family: 'Poppins';
@@ -331,7 +322,7 @@ form {
   font-size: 17px;
   line-height: 24px;
   padding: 12px 16px;
-  color: #6070ff;
+  color: #6070FF;
   border: 1px solid white;
   background-color: white;
   border-radius: 8px;
@@ -339,17 +330,4 @@ form {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-}
-
-.footer-line hr {
-  width: 125px;
-  border: 5px solid rgba(13, 21, 30, 1);
-  margin: auto;
-  margin-top: 35px;
-  margin-bottom: 8px;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
 }
