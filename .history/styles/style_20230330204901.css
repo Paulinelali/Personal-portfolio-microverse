@@ -19,6 +19,8 @@ body {
   -o-border-radius: 0 0 0 50px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 .header-inner {
   display: flex;
   justify-content: space-between;
@@ -81,6 +83,7 @@ body {
 .social-icons img { width: 15px; }
 
 /* finishing up mobile portfolio */
+
 .main-content {
   display: grid;
   gap: 100px;
