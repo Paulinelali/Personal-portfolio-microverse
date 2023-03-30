@@ -299,7 +299,7 @@ body {
 
 .last-section h1,
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   color: white;
   text-align: center;
@@ -319,7 +319,7 @@ form {
 .submit-btn {
   text-align: center;
   width: 50%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
